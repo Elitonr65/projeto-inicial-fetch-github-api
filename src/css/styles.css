@@ -148,6 +148,25 @@ main {
   color: #fff
 }
 
+.repositories-details{
+  display: flex;
+  justify-content: center;
+}
+
+.repositories-details p {
+  text-align: center;
+  padding: 5px;
+  background-color: #6a5acd;
+  color: #fff;
+  border-radius: 4px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.repositories-details p:last-child {
+  margin-right: 0px;
+}
+
 .container .profile-data.hide{
   display: none;
 }
